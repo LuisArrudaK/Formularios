@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Formulário</title>
+</head>
+
+<body>
+    <form action="#" method="get">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="">Email</label>
+            <br>
+            <input type="email" name="email" required>
+            <br><br>
+
+
+            <label for="">Quantidade de filhos</label>
+            <br>
+            <input type="number" id="filhos" min="0" max="6">
+
+            <br><br>
+            <input type="date" min="2022-01-16">
+
+            <br><br>
+            Possui atividade extra?
+
+            <label>
+                <input type="radio" name="atvExtra" value="s">
+                Sim
+            </label>
+
+            <label>
+                <input type="radio" name="atvExtra" value="n">
+                Não
+            </label>
+
+            <br><br><br>
+            <input type="submit" value="Enviar">
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Área de interesse</legend>
+
+            <label>
+                <input type="checkbox" name="interesse" value="HTML">HTML
+            </label>
+
+            <label>
+                <input type="checkbox" name="interesse" value="CSS">CSS
+            </label>
+
+            <label>
+                <input type="checkbox" name="interesse" value="JAVASCRIPT">JAVASCRIPT
+            </label>
+
+            <label>
+                <input type="checkbox" name="interesse" value="JAVA">JAVA
+            </label>
+
+            <label>
+                <input type="checkbox" name="interesse" value="PYTHON">PYTHON
+            </label>
+            <br><br>
+            <label>Escolha uma linguagem
+                <br><br>
+                <select name="linguagem" required>
+                    <option value="">Selecione uma opção</option>
+
+                    <optgroup label="FrontEnd">
+                        <option value="">Selecione uma opção</option>
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                        <option value="JAVASCRIPT">JAVASCRIPT</option>
+                    </optgroup>
+
+                    <optgroup label="BackEnd">
+                        <option value="JAVA">JAVA</option>
+                        <option value="PYTHON">PYTHON</option>
+                    </optgroup>
+                </select>
+
+                <input type="text" list="linguagemList">
+                <datalist id="linguagemList">
+                    <option value="html"></option>
+                    <option value="css"></option>
+                    <option value="javascript"></option>
+                    <option value="java"></option>
+                    <option value="python"></option>
+                    <option value="php"></option>
+                </datalist>
+            </label>
+        </fieldset>
+
+        <br><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
