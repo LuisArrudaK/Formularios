@@ -1,0 +1,48 @@
+body {
+    background-image: url(praia-do-norte-e-oceano-na-nazare-portugal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+form {
+    width: 400px;
+    padding: 1em;
+    background-color: rgb(131, 180, 131);
+    border-radius: 3px 3px 10px #ccc;
+    text-align: center;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+input,
+label {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+label {
+    padding: .75em;
+    border-radius: 5px;
+    margin-bottom: 1.5em;
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input {
+    border-radius: 3px;
+}
+
+.btn {
+    margin: 35px 0px 0px 0px;
+}
