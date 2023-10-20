@@ -1,6 +1,7 @@
 html {
     background-color: #95a4a6;
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+
 }
 
 body {
@@ -10,6 +11,8 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
+    background-image: url(praia-do-norte-e-oceano-na-nazare-portugal.jpg);
+    background-size: cover;
 }
 
 form {
@@ -57,6 +60,17 @@ legend {
 .btn {
     width: fit-content;
     margin-left: auto;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.actions {
+    display: flex;
+    gap: 1em;
+}
+
+.btn2 {
     background-color: blue;
     color: white;
     cursor: pointer;
